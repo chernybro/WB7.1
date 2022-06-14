@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="Theme.WB51.Toolbar.TitleTextAppearance" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textSize">32dp</item>
+        <item name="fontFamily">@font/kanit_light</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="Theme.WB51.HeadlineMedium.TextAppearance" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white80</item>
+        <item name="fontFamily">@font/kanit_light</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="Theme.WB51.HeadlineSmall.TextAppearance" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white80</item>
+        <item name="fontFamily">@font/kanit_light</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="Theme.WB51.BodyLarge.TextAppearance" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/white80</item>
+        <item name="fontFamily">@font/kanit_light</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="Theme.WB51.BodyMedium.TextAppearance" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/white80</item>
+        <item name="fontFamily">@font/kanit_light</item>
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="Theme.WB51.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorSurface</item>
+        <item name="cardElevation">8dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardCornerRadius">@dimen/radius_big</item>
+    </style>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WB5.1</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="dota_heroes_label">Dota Heroes</string>
+    <string name="mock_hero_name">Anti-Mage</string>
+    <string name="error_not_found">Hero\'s not found</string>
+    <string name="error_io_exception">IO exception</string>
+    <string name="stats_label">Stats</string>
+    <string name="attributes_label">Attributes</string>
+    <string name="attack_label">Attack</string>
+    <string name="defence_label">Defence</string>
+    <string name="mobility_label">Mobility</string>
+    <string name="health_mana_label"><![CDATA[Health&Mana]]></string>
+    <string name="hero_name">Hero</string>
+
+
+</resources>

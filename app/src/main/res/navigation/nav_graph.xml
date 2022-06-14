@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/HeroesListFragment">
+
+    <fragment
+        android:id="@+id/HeroesListFragment"
+        android:name="com.chernybro.wb51.presentation.hero_list_screen.HeroesListFragment"
+        tools:layout="@layout/fragment_heroes_list">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/HeroDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/HeroDetails"
+        android:name="com.chernybro.wb51.presentation.hero_details.HeroDetailsFragment"
+        tools:layout="@layout/fragment_hero_details">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/HeroesListFragment" />
+        <argument
+            android:name="heroId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

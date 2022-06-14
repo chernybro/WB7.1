@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WB51" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/soft_pink</item>
+        <item name="colorOnPrimary">@color/almost_white</item>
+
+        <item name="colorSecondary">@color/desaturated_dark_blue</item>
+        <item name="colorOnSecondary">@color/almost_white</item>
+
+        <item name="colorTertiary">@color/dark_grayish_blue</item>
+        <item name="colorOnTertiary">@color/almost_white</item>
+
+        <item name="background">@color/very_dark_blue</item>
+        <item name="colorOnBackground">@color/almost_white</item>
+
+        <item name="colorSurface">@color/desaturated_dark_blue</item>
+        <item name="colorOnSurface">@color/almost_white</item>
+
+        <item name="colorError">@color/red</item>
+        <item name="colorErrorContainer">@color/pink_light</item>
+        <item name="colorOnError">@color/almost_white</item>
+
+        <item name="android:statusBarColor">?attr/colorTertiary</item>
+    </style>
+
+    <style name="Theme.WB51" parent="Base.Theme.WB51" />
+
+</resources>

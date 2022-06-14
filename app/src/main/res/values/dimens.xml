@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="margin_nano">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_huge">32dp</dimen>
+
+
+    <dimen name="radius_nano">4dp</dimen>
+    <dimen name="radius_small">8dp</dimen>
+    <dimen name="radius_normal">16dp</dimen>
+    <dimen name="radius_big">24dp</dimen>
+</resources>
